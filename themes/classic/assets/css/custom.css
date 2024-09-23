@@ -2,3 +2,11 @@
  * Custom code goes here.
  * A template should always ship with an empty custom.css
  */
+ .top-menu .sub-menu {
+   
+    position: absolute; 
+    z-index: 9999; 
+    margin-top: 45px; 
+    left: 0; 
+    
+}

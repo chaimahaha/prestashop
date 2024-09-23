@@ -30,13 +30,6 @@
   </div>
 
   <div class="media-body">
-
-        <div class="product-line-info">
-            <span class="label">Sous-catégorie:</span>
-              <span class="value">{$product.subcategory|escape:'htmlall':'UTF-8'}</span>
-          </div>
-   
-
     <span class="product-name">{$product.name}</span>
     <span class="product-quantity">x{$product.quantity}</span>
     <span class="product-price float-xs-right">{$product.price}</span>
