@@ -28,6 +28,7 @@
   <section id="main">
 
     {block name='product_list_header'}
+    {hook h='displayCategoryPage'}
       <h2 id="js-product-list-header" class="h2">{$listing.label}</h2>
     {/block}
 
