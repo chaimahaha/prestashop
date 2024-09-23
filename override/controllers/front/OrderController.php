@@ -2,18 +2,22 @@
 
 class OrderController  extends OrderControllerCore 
 {
-    /* public function initContent()
+    public function initContent()
 {
     parent::initContent();
 
     $products = $this->context->cart->getProducts();
-
+    //var_dump($products);
     foreach ($products as &$product) {
         $productObj = new Product($product['id_product']);
-        $product['subcategory'] = $productObj->getSubCategory(); 
+        $subcategory  = $productObj->getSubCategoryForProduct(); 
+        $product['subcategory'] = is_string($subcategory) ? $subcategory : '';
+       
     }
-    //var_dump($products);
-    $this->context->smarty->assign('products', $products);
-} */
+
+    $testValue = 'Test value';
+    $this->context->smarty->assign('test_value', $testValue);
+    $this->context->smarty->assign('products' , $products);
+}
 
 }
