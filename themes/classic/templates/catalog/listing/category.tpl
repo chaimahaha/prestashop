@@ -22,8 +22,10 @@
  * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
  * International Registered Trademark & Property of PrestaShop SA
  *}
+
 {extends file='catalog/listing/product-list.tpl'}
 
 {block name='product_list_header'}
+ {hook h='displayCategoryPage'}
     {include file='catalog/_partials/category-header.tpl' listing=$listing category=$category}
 {/block}

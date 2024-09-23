@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>categoryslider</name>
+    <displayName><![CDATA[Category Slider]]></displayName>
+    <version><![CDATA[1.0.0]]></version>
+    <description><![CDATA[&laquo;slider&raquo; in category page (product listing page) that shows all subcategories of the current category with images of each subcategory with the shape of circle and displaying also the names and the number of products in each one like in the screenshot below but with the number of products.]]></description>
+    <author><![CDATA[ma boutique ]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+	<confirmUninstall><![CDATA[Are you sure to uninstall ?]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

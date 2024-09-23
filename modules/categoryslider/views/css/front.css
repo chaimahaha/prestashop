@@ -1,0 +1,45 @@
+.category-slider-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%; /* Ajustez en fonction de la taille du slider */
+}
+
+.category-slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%; /* Prend toute la largeur disponible */
+}
+
+.slider-item {
+    min-width: 200px; /* Largeur d'un élément du slider */
+    margin: 0 10px;
+    text-align: center;
+}
+
+.subcategory-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.slider-navigation {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider-navigation button {
+    background-color: rgba(0,0,0,0.5);
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.slider-navigation button:hover {
+    background-color: rgba(0,0,0,0.7);
+}
