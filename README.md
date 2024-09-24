@@ -1,7 +1,9 @@
 
 <h1>Présentation du projet</h1>
 
-Ce dépôt contient mes exercices réalisés sur PrestaShop dans le cadre d'un test technique. Voici les points clés concernant mon approche de développement :
+Ce dépôt contient mes exercices réalisés sur PrestaShop dans le cadre de test. 
+
+Voici les points clés concernant mon approche de développement :
 
 <h2>Stratégie de branchement Git</h2>
 
